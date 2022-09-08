@@ -1,0 +1,763 @@
+@media screen and (max-width: 1300px) and (max-width: 1300px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    /* NAVBAR CSS */
+    
+
+    .logo {
+        color: rgb(255, 153, 0);
+        letter-spacing: 2px;
+        font-size: 18px;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    .menu {
+        display: flex;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        font-weight: bold;
+
+    }
+
+    .menu li {
+        /* padding-right: 60px; */
+        list-style: none;
+        /* margin-left: 10px; */
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        font-size:13px;
+    }
+
+    .menu li a:hover {
+        transition: all 0.2s ease-in;
+        color: rgb(255, 153, 0);
+    }
+
+    .input {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-top: 13px;
+    }
+
+    .input input {
+        height: 39px;
+        width: 300px;
+        outline: none;
+        color: white;
+        border: 1px solid rgb(255, 153, 0);
+        background-color: transparent;
+        border-radius: 3px;
+       
+
+    }
+
+    .input input::placeholder {
+        color: white;
+        font-weight: bold;
+        padding-left: 15px;
+        font-size: 12px;
+
+    }
+
+    .button {
+        color: rgb(255, 255, 255);
+        right: 0px;
+        background-color: rgb(255, 153, 0);
+        padding: 7px 20px 6px 20px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        position: absolute;
+        border-radius: 3px
+    }
+
+
+
+                                                  /* CONTENT CSS */
+    
+.content {
+    position: relative;
+    margin-top: 100px;
+    margin-left:25px;
+    width: 700px;
+    height: 500px;
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    }
+    .content h1{
+      font-size: 40px;
+    }
+    .content h1 span{
+      color:rgb(255, 153, 0);
+    }
+    .content p{
+        font-size: 14px;
+    }
+    
+    .btn-1 h1{
+      font-size: 23px;
+      margin-top: 20px;
+      background-color:rgb(255, 153, 0) ;
+      width: 145px;
+      text-align: center;
+      border-radius: 9px;
+      color: black;
+    
+    }
+    .btn-1 h1:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in;
+    }
+
+
+
+    
+                                      /* form */
+  .form{
+    position: absolute;
+    bottom:10%;
+    left: 63%;
+  
+    width: 320px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+  background: linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    border-radius: 9px;
+  
+    }  
+    
+    .form .heading-1{
+      color:rgb(216, 130, 0)  ;
+      background-color: rgb(255, 255, 255);
+      margin:20px ;
+      padding: 1px;
+      width:260px;
+      border-radius: 7px;
+  
+  
+    }
+    .form input{
+      margin-top: 5px;
+      padding: 8px;
+      width: 270px;
+      outline: none;
+      border-bottom: 1px solid rgb(255, 153, 0) ;
+    
+      border-top:none ;
+      border-left:none ;
+      border-right:none ;
+      background: transparent;
+  
+    }
+    .form .heading-2{
+      color:rgb(0, 0, 0)  ;
+      background-color: rgb(216, 130, 0);
+      margin-top:20px ;
+      padding: 1px;
+      width:260px;
+      border-radius: 7px;
+  
+  
+    }
+    .form .heading-2:hover{
+      background-color: rgb(255, 255, 255);
+      transition: all 0.2s ease-in;
+  
+    }
+  
+    .form h3 span{
+      color: rgb(216, 130, 0);
+    }
+    .form h3 {
+  margin-top:  15px;
+  color: rgb(255, 255, 255);
+    }
+    .form h4 {
+  margin-top:  15px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+    }
+  
+  
+  /* icon */
+.icon .facebook{
+    margin-top:20px;
+    margin-left:25px;
+    color: #1877f2;
+     width:25px; height:25px;
+  
+    }
+    .icon .instagram{
+  margin-top:20px;
+  margin-left:25px;
+  color: rgb(219, 158, 4);
+   width:25px; 
+   height:25px;
+    }
+    .icon .twitter{
+  margin-top:20px;
+  margin-left:25px;
+  color:#1877f2; ;
+   width:25px; height:25px;
+    }
+    .icon .google{
+  margin-top:20px;
+  margin-left:25px;
+  color: red;
+   width:25px; height:25px;
+  
+    }
+    .icon .skype{
+  margin-top:20px;
+  margin-left:25px;
+  color: #1877f2;;
+   width:25px; height:25px;
+    }
+
+
+}
+
+
+
+/* media screen 930 */
+
+@media screen and (max-width: 930px)  {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    /* NAVBAR CSS */
+    
+
+    .logo {
+        color: rgb(255, 153, 0);
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        margin-bottom: 7px;
+        font-weight: bold;
+    }
+
+    .menu {
+        display: flex;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        font-weight: bold;
+
+    }
+
+    .menu li {
+        /* padding-right: 60px; */
+        list-style: none;
+        /* margin-left: 10px; */
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        font-size:11px;
+    }
+
+    .menu li a:hover {
+        transition: all 0.2s ease-in;
+        color: rgb(255, 153, 0);
+    }
+
+    .input {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-top: 13px;
+    }
+
+    .input input {
+        height: 39px;
+        width: 300px;
+        outline: none;
+        color: white;
+        border: 1px solid rgb(255, 153, 0);
+        background-color: transparent;
+        border-radius: 3px;
+       
+
+    }
+
+    .input input::placeholder {
+        color: white;
+        font-weight: bold;
+        padding-left: 15px;
+        font-size: 12px;
+
+    }
+
+    .button {
+        color: rgb(255, 255, 255);
+        right: 0px;
+        background-color: rgb(255, 153, 0);
+        padding: 7px 20px 6px 20px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        position: absolute;
+        border-radius: 3px
+    }
+
+
+
+                                                  /* CONTENT CSS */
+    
+.content {
+    position: relative;
+    margin-top: 140px;
+    margin-left:19px;
+    width: 700px;
+    height: 500px;
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    }
+    .content h1{
+      font-size: 30px;
+    }
+    .content h1 span{
+      color:rgb(255, 153, 0);
+    }
+    .content p{
+        font-size: 9px;
+    }
+    
+    .btn-1 h1{
+      font-size: 20px;
+      margin-top: 20px;
+      background-color:rgb(255, 153, 0) ;
+      width: 135px;
+      text-align: center;
+      border-radius: 9px;
+      color: black;
+    
+    }
+    .btn-1 h1:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in;
+    }
+
+
+
+    
+                                      /* form */
+  .form{
+    position: absolute;
+    bottom:19%;
+    left: 56%;
+  
+    width: 260px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+  background: linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    border-radius: 9px;
+  
+    }  
+    
+    .form .heading-1{
+      color:rgb(216, 130, 0)  ;
+      background-color: rgb(255, 255, 255);
+      margin:10px ;
+      padding: 1px;
+      width:200px;
+      border-radius: 7px;
+  
+  
+    }
+    .form input{
+      margin-top: 3px;
+      padding: 2px;
+      width: 220px;
+      outline: none;
+      border-bottom: 1px solid rgb(255, 153, 0) ;
+    
+      border-top:none ;
+      border-left:none ;
+      border-right:none ;
+      background: transparent;
+  
+    }
+    .form .heading-2{
+      color:rgb(0, 0, 0)  ;
+      background-color: rgb(216, 130, 0);
+      margin-top:10px ;
+      padding: 2px;
+      width:200px;
+      border-radius: 7px;
+  
+  
+    }
+    .form .heading-2:hover{
+      background-color: rgb(255, 255, 255);
+      transition: all 0.2s ease-in;
+  
+    }
+  
+    .form h3 span{
+      color: rgb(216, 130, 0);
+    }
+    .form h3 {
+  margin-top:  15px;
+  color: rgb(255, 255, 255);
+    }
+    .form h4 {
+  margin-top:  15px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+    }
+  
+  
+  /* icon */
+.icon .facebook{
+    margin-top:20px;
+    margin-left:25px;
+    color: #1877f2;
+     width:19px;
+      height:19px;
+  
+    }
+    .icon .instagram{
+  margin-top:20px;
+  margin-left:25px;
+  color: rgb(219, 158, 4);
+   width:19px; 
+   height:19px;
+    }
+    .icon .twitter{
+  margin-top:20px;
+  margin-left:25px;
+  color:#1877f2; ;
+   width:19px; 
+   height:19px;
+    }
+    .icon .google{
+  margin-top:20px;
+  margin-left:25px;
+  color: red;
+   width:19px;
+    height:19px;
+  
+    }
+    .icon .skype{
+  margin-top:20px;
+  margin-left:25px;
+  color: #1877f2;;
+   width:19px;
+    height:19px;
+    }
+  
+    
+    
+    
+
+
+
+}
+
+
+/* media screen 770 */
+
+@media screen and (max-width: 805px)  {
+
+    .header{
+        content: "";
+       background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) ,url(/image/praroz-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      background-position: center ;
+        position: absolute;
+        width:auto;
+        height: 1200px; 
+    } 
+    
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    /* NAVBAR CSS */
+    
+
+    .logo {
+        color: rgb(255, 153, 0);
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        margin-bottom: 7px;
+        font-weight: bold;
+    }
+
+    .menu {
+        display: flex;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        font-weight: bold;
+
+    }
+
+    .menu li {
+        /* padding-right: 60px; */
+        list-style: none;
+        /* margin-left: 10px; */
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        font-size:11px;
+    }
+
+    .menu li a:hover {
+        transition: all 0.2s ease-in;
+        color: rgb(255, 153, 0);
+    }
+
+    .input {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-top: 13px;
+    }
+
+    .input input {
+        height: 39px;
+        width: 300px;
+        outline: none;
+        color: white;
+        border: 1px solid rgb(255, 153, 0);
+        background-color: transparent;
+        border-radius: 3px;
+       
+
+    }
+
+    .input input::placeholder {
+        color: white;
+        font-weight: bold;
+        padding-left: 15px;
+        font-size: 12px;
+
+    }
+
+    .button {
+        color: rgb(255, 255, 255);
+        right: 0px;
+        background-color: rgb(255, 153, 0);
+        padding: 7px 20px 6px 20px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        position: absolute;
+        border-radius: 3px
+    }
+
+
+
+                                                  /* CONTENT CSS */
+    
+.content {
+    /* display: none; */
+    /* position: relative; */
+     margin-top: 45px;
+    margin-right:19px; 
+    width: 781px;
+    height: 300px;
+    border: 2px solid black;
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-align: center;
+    }
+    .content h1{
+      font-size: 30px;
+    }
+    .content h1 span{
+      color:rgb(255, 153, 0);
+    }
+    .content p{
+        font-size: 9px;
+    }
+    
+    .btn-1 h1{
+      font-size: 20px;
+      margin: 20px auto  ;
+      background-color:rgb(255, 153, 0) ;
+      width: 135px;
+      text-align: center;
+      border-radius: 9px;
+      color: black;
+    
+    
+    }
+    .btn-1 h1:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in;
+    }
+
+
+
+    
+                                      /* form */
+  .form{
+    /* position: absolute; */
+    top:50%;
+    left: 0%;
+  
+    width: 781px;
+    height: 450px;
+    /* display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; *
+    /* text-align: center; */ 
+  background: linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    border-radius: 9px;
+    display: flex;
+  
+  
+    }  
+    
+    .form .heading-1{
+      color:rgb(216, 130, 0)  ;
+      background-color: rgb(255, 255, 255);
+      margin:20px ;
+      padding: 2px;
+      width:700px;
+      border-radius: 7px;
+  
+  
+    }
+    .form input{
+      margin-top: 7px;
+      padding: 5px;
+      width: 720px;
+      outline: none;
+      border-bottom: 1px solid rgb(255, 153, 0) ;
+    
+      border-top:none ;
+      border-left:none ;
+      border-right:none ;
+      background: transparent;
+  
+    }
+    .form .heading-2{
+      color:rgb(0, 0, 0)  ;
+      background-color: rgb(216, 130, 0);
+      margin-top:40px ;
+      padding: 2px;
+      width:700px;
+      border-radius: 7px;
+  
+  
+    }
+    .form .heading-2:hover{
+      background-color: rgb(255, 255, 255);
+      transition: all 0.2s ease-in;
+  
+    }
+  
+    .form h3 span{
+      color: rgb(216, 130, 0);
+    }
+    .form h3 {
+  margin-top:  15px;
+  color: rgb(255, 255, 255);
+    }
+    .form h4 {
+  margin-top:  15px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+    }
+  
+  
+  /* icon */
+.icon .facebook{
+    margin-top:20px;
+    margin-left:25px;
+    margin-right:25px;
+    color: #1877f2;
+     width:19px;
+      height:19px;
+  
+    }
+    .icon .instagram{
+  margin-top:20px;
+  margin-left:25px;
+  color: rgb(219, 158, 4);
+   width:19px; 
+   height:19px;
+    }
+    .icon .twitter{
+  margin-top:20px;
+  margin-left:25px;
+  color:#1877f2; ;
+   width:19px; 
+   height:19px;
+    }
+    .icon .google{
+  margin-top:20px;
+  margin-left:25px;
+  color: red;
+   width:19px;
+    height:19px;
+  
+    }
+    .icon .skype{
+  margin-top:20px;
+  margin-left:25px;
+  color: #1877f2;;
+   width:19px;
+    height:19px;
+    }
+  
+    
+    
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+.header{
+    content: "";
+   background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) ,url(/image/praroz-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-position: center ;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+} 
+
+
+                                                  /* NAVBAR CSS */
+.navbar{
+
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+.logo{
+  color: rgb(255, 153, 0);
+  letter-spacing: 2px;
+  font-size: 22px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.menu{
+display: flex;
+font-family: 'Edu NSW ACT Foundation', cursive;
+font-weight: bold;
+
+}
+.menu li{
+ padding-right: 60px;
+ list-style: none;
+ margin-left: 10px; 
+}
+.menu li a{
+  text-decoration: none;
+  color: white;
+}
+.menu li a:hover{
+ transition: all 0.2s ease-in;
+  color: rgb(255, 153, 0);
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  }
+.input input{
+height: 39px;
+width: 300px;
+outline: none;
+color: white;
+border: 1px solid rgb(255, 153, 0);
+background-color: transparent;
+border-radius: 3px;
+
+}
+.input input::placeholder{
+  color: white;
+  font-weight: bold;
+padding-left: 15px;
+  font-size:15px;
+
+}
+.button{
+ color: rgb(255, 255, 255);
+ right: 0px;
+ background-color:rgb(255, 153, 0) ;
+ padding: 7px 20px 6px 20px;
+ text-align: center;
+ font-weight: bold;
+ font-family: 'Edu NSW ACT Foundation', cursive;
+ position: absolute;
+ border-radius: 3px
+}
+
+
+                                                  /* CONTENT CSS */
+.content {
+position: relative;
+margin-top: 120px;
+margin-left:70px;
+width: 700px;
+height: 500px;
+color: white;
+font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.content h1{
+  font-size: 50px;
+}
+.content h1 span{
+  color:rgb(255, 153, 0);
+}
+
+.btn-1 h1{
+  font-size: 26px;
+  margin-top: 20px;
+  background-color:rgb(255, 153, 0) ;
+  width: 145px;
+  text-align: center;
+  border-radius: 9px;
+  color: black;
+
+}
+.btn-1 h1:hover{
+background-color: rgb(255, 255, 255);
+transition: all 0.2s ease-in;
+}
+
+
+
+                                      /* form */
+  .form{
+  position: absolute;
+  bottom:10%;
+  left: 66%;
+
+  width: 360px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+background: linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%);
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  border-radius: 9px;
+
+  }  
+  
+  .form .heading-1{
+    color:rgb(216, 130, 0)  ;
+    background-color: rgb(255, 255, 255);
+    margin:30px ;
+    padding: 5px;
+    width:280px;
+    border-radius: 7px;
+
+
+  }
+  .form input{
+    margin-top: 10px;
+    padding: 8px;
+    width: 290px;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 153, 0) ;
+    color: white;
+  text-transform: uppercase;
+    border-top:none ;
+    border-left:none ;
+    border-right:none ;
+    background: transparent;
+
+  }
+  .form .heading-2{
+    color:rgb(0, 0, 0)  ;
+    background-color: rgb(216, 130, 0);
+    margin-top:40px ;
+    padding: 5px;
+    width:280px;
+    border-radius: 7px;
+
+
+  }
+  .form .heading-2:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in;
+
+  }
+
+  .form h3 span{
+    color: rgb(216, 130, 0);
+  }
+  .form h3 {
+margin-top:  15px;
+color: rgb(255, 255, 255);
+  }
+  .form h4 {
+margin-top:  15px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+  }
+
+
+  /* icon */
+.icon .facebook{
+  margin-top:20px;
+  margin-left:25px;
+  color: #1877f2;
+   width:35px; height:35px;
+
+  }
+  .icon .instagram{
+margin-top:20px;
+margin-left:25px;
+color: rgb(219, 158, 4);
+ width:35px; 
+ height:35px;
+  }
+  .icon .twitter{
+margin-top:20px;
+margin-left:25px;
+color:#1877f2; ;
+ width:35px; height:35px;
+  }
+  .icon .google{
+margin-top:20px;
+margin-left:25px;
+color: red;
+ width:35px; height:35px;
+
+  }
+  .icon .skype{
+margin-top:20px;
+margin-left:25px;
+color: #1877f2;;
+ width:35; height:35px;
+  }
+
+ 
+  
+
